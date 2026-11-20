@@ -1,0 +1,85 @@
+*{ margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans serif;
+}
+
+body{
+    background:#0b0b14;
+    color:white;
+
+}
+
+ nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 8%;
+
+ }
+
+ .logo{
+    font-size:32px;
+ }
+
+ .logo span{
+
+color::#8b5cf6;
+
+ }
+
+ ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+
+
+ }
+
+ ul a{
+    color:white;
+    text-decoration:none;
+
+
+ }
+
+ .btn,
+ .main-btn{
+    bakcground:#8b5cf6;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:25px;
+    cursor:pointer;
+
+
+ }
+
+
+ .hero{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+
+ }
+
+ .hero-text{
+    width:45%;
+
+
+ }
+
+ .hero-text{
+    font-size:55px;
+
+ }
+
+ .hero-text p{
+    margin:25px 0;
+    font-size:18px;
+    color:#ccc;
+
+
+
+
+ }
